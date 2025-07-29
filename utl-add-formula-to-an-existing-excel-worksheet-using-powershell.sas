@@ -9,10 +9,11 @@ PROBLEM
 
 SOLUTIONS
 
-   1 Powershell add BMI column to existing workbook
-     (This is much harder? Then adding column when creating workbook)
-   2 SAS add BMI column while creating workbook
-   3 Related repos
+    Powershell add BMI column to existing workbook
+    (This is much harder? Then adding column when creating workbook)
+
+    Related repos on end
+
 ython and r see links below
 
 SOAPBOX ON
@@ -216,13 +217,13 @@ ReleaseComObject($excel) | Out-Null
 /* [Sheet1]                                                                                                                 */
 /****************************************************************************************************************************/
 
-/*____
-|___ /   _ __ ___ _ __   ___  ___
-  |_ \  | `__/ _ \ `_ \ / _ \/ __|
- ___) | | | |  __/ |_) | (_) \__ \
-|____/  |_|  \___| .__/ \___/|___/
-                 |_|
-*/
+
+ _ __ ___ _ __   ___  ___
+| `__/ _ \ `_ \ / _ \/ __|
+| | |  __/ |_) | (_) \__ \
+|_|  \___| .__/ \___/|___/
+         |_|
+
 https://github.com/rogerjdeangelis/utl_excel_add_formulas
 https://github.com/rogerjdeangelis/utl-sending-a-formula-to-excel-to-reference-a-cell-in-another-sheet
 https://github.com/rogerjdeangelis/utl-using-only-r-openxlsx-to-add-excel-formulas-to-an-existing-sheet
